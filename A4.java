@@ -1,4 +1,4 @@
-//  to initialize array without
+/* write a java program to take array elements from the user and print it on screen */
 import java.util.Scanner; 
  class A4{
    public static void main( String args []){

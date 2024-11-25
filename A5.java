@@ -1,4 +1,4 @@
-//  to initialize array without
+// how take input from the user 
 import java.util.Scanner; 
  class A5{
    public static void main( String args []){

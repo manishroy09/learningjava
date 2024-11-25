@@ -1,4 +1,4 @@
-//  to initialize array without 
+/* write a java program to initialize 1d array without without using index and print it on screen */
  class A3{
    public static void main( String args []){
     int arr[]= { 10,20,30,40,50,60};
