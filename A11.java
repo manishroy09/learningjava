@@ -9,7 +9,7 @@ class A11{
         max=arr[i];
         }
     }
-      System.out.println(" Smallest Element : " +max);
+      System.out.println("Largest Element : " +max);
      }
  }
 
