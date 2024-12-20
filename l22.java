@@ -8,17 +8,19 @@ import java.util.Scanner;
           int n=sk.nextInt();
 
       
-      int fact=1;
+      
        int sum=0;
         int m=n;
        while(n!=0){
         int r=n%10;
+        int fact=1;
         for(int i=r; i>=1; i--){
          
            fact=fact*i;
            }
         sum=sum + fact;
         n=n/10;
+        
          }
       if(m==sum){
        System.out.println(" This is Krishnamurthy number " );
