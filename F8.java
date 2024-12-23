@@ -1,10 +1,14 @@
-//taking somthing and returning nothing 
+//taking nothing and returning nothing 
 // palindrome number or not 
 
 import java.util.Scanner;
 class F8{
 
-  public void palindrome(int n){//formal argument 
+  public void palindrome(){//formal argument 
+      
+     Scanner kb=new Scanner(System.in);
+    System.out.println(" Enter any number : ");
+    int n=kb.nextInt();
     
 
     int rev=0;
@@ -28,14 +32,11 @@ class F8{
 
     public static void main(String args[]){
 
-    Scanner kb=new Scanner(System.in);
-    System.out.println(" Enter any number : ");
-    int n=kb.nextInt();
     
      
     F8 obj=new F8();
 
-    obj.palindrome(n);
+    obj.palindrome();
        
   }
 }

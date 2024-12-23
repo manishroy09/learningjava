@@ -4,26 +4,28 @@
 import java.util.Scanner;
 class F2{
 
- public void evenOrOdd(){
+   public static String evenOrOdd(int n){
  
-   int n;
-   Scanner sk=new Scanner(System.in);
-   System.out.println("Enter any number : ");
-   n=sk.nextInt();
-
   if(n%2==0){
-     System.out.println( n+ " is even number ");
+     return "even";   
      }
     else{
-      System.out.println( n+ " is odd number ");
+      return "odd";   
+
      }
    }
 
    public static void main(String args[]){
-     F2 obj=new F2();
+    
+     Scanner sk=new Scanner(System.in);
+   System.out.println("Enter any number : ");
+   int n=sk.nextInt();
 
-   obj.evenOrOdd();
-   obj.evenOrOdd();
+     F2 obj=new F2();
+  
+   String s=evenOrOdd(n);
+
+   System.out.println(s); 
   }
 }
   

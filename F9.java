@@ -1,17 +1,11 @@
 //Strong number or not 
-//taking nothing returning nothing 
+//taking somthing returning nothing 
 
 import java.util.Scanner;
 class F9{
 
- public void strongNumber(){
+ public void strongNumber(int n){
  
-   
-   Scanner sk=new Scanner(System.in);
-   System.out.println("Enter any number : ");
-   int n=sk.nextInt();
-     
-   
    int  n1=n;
    int sum=0;
       int i=0;
@@ -35,9 +29,14 @@ class F9{
      }
 
    public static void main(String args[]){
+
+      Scanner sk=new Scanner(System.in);
+   System.out.println("Enter any number : ");
+   int n=sk.nextInt(); 
+
      F9 obj=new F9();
 
-   obj.strongNumber();
+   obj.strongNumber(n);
    
   }
 }
