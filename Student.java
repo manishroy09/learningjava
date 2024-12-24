@@ -25,7 +25,7 @@ class Student{
      System.out.println("Enter Marks of Hindi :");
      h=sk.nextInt();
      System.out.println("Enter Marks of english :");
-     p=sk.nextInt();
+     e=sk.nextInt();
      
 
 
@@ -44,15 +44,14 @@ class Student{
       
    int getTotalMarks(){  
           
-     System.out.println(" Total Marks is :" +(p+c+m+h+e));
-    
+     return (p+c+m+h+e);
+     
     
     }
   
 float getPercentage(int totalmarks ){
           
-     System.out.println(" Percentage:" +(totalmarks/5));
-    
+          return (totalmarks/5f);
     
     }
 
@@ -63,8 +62,8 @@ public static void main(String args[]){
  obj.showData();
 int tm=obj.getTotalMarks();
 System.out.println("Total marks :"+tm);
-  float per=obj.getPercentage();
-System.out.println("Percentage :"+per);
+  float p=obj.getPercentage(tm);
+System.out.println("Percentage :"+p);
   
 
 
