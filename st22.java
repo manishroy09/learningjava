@@ -12,8 +12,8 @@ import java.util.Scanner;
        }
    for(int i=0; i<10; i++){
        String s=arr[i].toLowerCase();
-       int n=s.indexOf("he");
-       if(n<s.length()){
+       
+       if(s.contains("he")){
             System.out.println(arr[i]);
         }
     }
