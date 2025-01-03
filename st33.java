@@ -15,7 +15,7 @@ class st33{
    for(int i=0; i<s.length(); i++){
       char c=s1.charAt(i);
       
-      if(c>=0 && c>=9){
+      if(c>='0' && c<='9'){
             //skip the i 
      }
      if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
