@@ -26,7 +26,7 @@ class st32{
      }
      
      
-    else {
+    else if(c>=32 && c<=47) {
        special++;
     }
    }

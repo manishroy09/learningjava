@@ -6,26 +6,27 @@ class st42{
      
    Scanner sk=new Scanner(System.in);
 
-   System.out.println("Enter String 1 :");
+   System.out.println("Enter String  :");
    String s=sk.nextLine();
 
     System.out.println("The given sentence is : " +s);
-       char s1[]=new char[s.length()];
+      String result = "";
+
    for(int i=0; i<s.length(); i++){
-     char c=s.charAt(i);
+       char c = s.charAt(i);
        if(c>='A' && c<='Z'){
-          char k=c.toLowerCase();
-          s1[i]=k;
+          result = result + (char)(c+32);
+          
          }
        else if(c>='a' &&  c<='z'){
-          char k=c.toUpperCase();
-          s1[i]=k; 
-         }       
-         
+          result = result + (char)(c-32); 
+         }  
+        else{
+          result = result + c; 
      }
-   for(int i=0; i<s.length(); i++){
-  System.out.println("After Case changed the string is : " +s1[i]);
-   }
+   
+    }
+System.out.println("After case changed the string is : "+result);
 
  }
 

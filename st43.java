@@ -6,24 +6,25 @@ class st43{
      
    Scanner sk=new Scanner(System.in);
 
-   System.out.println("Enter String 1 :");
+   System.out.println("Enter String :");
    String s=sk.nextLine();
 
    String s1 = s.toLowerCase();
 
    
 
-   String split[] = s1.split(" ");
+   String s2[] = s1.split(" ");
    
-   int freq=0;
-  
-  for(int i=0; i<split.length(); i++){
-     if( split[i]=="the"){
+   String s3 = "the";
+  int freq=0;
+  for(int i=0; i<s2.length; i++){
+     
+     if(s2[i].equals(s3)==true){
     freq++;
      }
    }
 
-   System.out.println("The frequency of the word "the" is : " +freq);
+   System.out.println("The frequency of the word "+s3+" is :" +freq );
  
     
 

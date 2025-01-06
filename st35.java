@@ -9,22 +9,25 @@ class st35{
    System.out.println("Enter String 1 :");
    String s=sk.nextLine();
 
-    
-       char arr[] = 0;
+    char arr[] = s.toCharArray();
+     
    for(int i=0; i<s.length(); i++){
-       char c = charAt(i);
+       
        for(int j=i+1; j<s.length(); j++){
-              char k = charAt(j);
-           if(c.compareTo(k)<0){
-               arr[i] = k;
-            }
-          
-       }
+              
+           if(arr[i]>arr[j]){
+             char temp =arr[i];
+                  arr[i] = arr[j];
+                  arr[j] = temp;
+                         } 
+          }
               
          
      }
-  System.out.println("After sorting the string appears like : " +arr);
-
+for(char x:arr){
+ System.out.print(x);
+}
+   
  }
 
 }
