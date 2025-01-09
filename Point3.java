@@ -4,10 +4,12 @@
 class Point3{
 public int x;
 public int y;//instance variable
+
 public Point3(){
 System.out.println("Point3 class Default Constructor is called");
 
 }
+
 public Point3(int x,int y){
 this.x=x;
 this.y=y;

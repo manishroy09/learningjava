@@ -1,5 +1,5 @@
 //program to check given number is even or not using function(using
-//taking nothing returning nothing 
+//taking somthing returning somthing 
 
 import java.util.Scanner;
 class F2{

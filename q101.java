@@ -3,13 +3,10 @@ import java.util.Scanner;
      public static void main(String args[]){
      Scanner sk=new Scanner(System.in);
 
-   System.out.println("Enter Any Number :");
-    String s=sk.nextLine();
+   System.out.println("Enter Any String :");    
+   String s=sk.nextInt();
 
-    String r=s.touppercase();
-    System.out.println(r.equals(s));
-
-      }
+  }
 } 
 
 

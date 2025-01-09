@@ -1,4 +1,4 @@
-// fabonaci seriese
+// fibonaci seriese
 
 class R2{
         

@@ -3,7 +3,7 @@
 import java.util.Scanner;
 class F5{
 
-    int add(){//formal argument 
+    int add(){ //formal argument 
     
     int n1,n2;
     

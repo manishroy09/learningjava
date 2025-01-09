@@ -9,3 +9,5 @@ import java.util.Scanner;
      System.out.println("Length of string after trim :" +s1.length());
   }
 }
+
+

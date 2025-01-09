@@ -3,7 +3,7 @@
 import java.util.Scanner;
 class F3{
 
- public void checkPrime(){
+   public void checkPrime(){
  
    int n;
    Scanner sk=new Scanner(System.in);

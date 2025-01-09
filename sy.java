@@ -1,3 +1,4 @@
+//Home work print even,odd, zero.
 import java.util.Scanner;
     public class sy{
            public static void main(String args[]){

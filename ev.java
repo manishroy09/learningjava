@@ -7,6 +7,7 @@ public class ev{
     System.out.println( "Enter  number : ");
     n=k.nextInt();
             
+   
     if(n%2==0){
       System.out.println("Number is even" );
       }

@@ -15,9 +15,6 @@ import java.util.Scanner;
          }
      }
 
-
-
-
   if(count==2){
        System.out.println("Prime number ");
        }

@@ -25,4 +25,4 @@ public class swi{
               }
     }
 }
- 
+ //if we change the place of default then we have to use break 

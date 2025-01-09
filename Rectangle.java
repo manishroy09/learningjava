@@ -1,3 +1,4 @@
+// area  and parameter of length using funtion in oops
 import java.util.Scanner;
 class Rectangle{
     int l;

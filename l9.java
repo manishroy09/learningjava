@@ -1,4 +1,4 @@
-// print table of given number  using  while loop;
+// print table of given number  using do while loop;
 import java.util.Scanner;
 public class l9{
        public static void main(String args[]){

@@ -11,4 +11,4 @@ public class l4{
       }
 
      }
-}// no. of iteration is 12 , that mean loop will exicute 11 times.
+}// no. of iteration is 11  , that mean loop will exicute 11 times.

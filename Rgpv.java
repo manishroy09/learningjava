@@ -31,5 +31,13 @@ public static void main(String args[]){
 Rgpv r = new college();
 r.cctv();
 r.lab();
+r.lab();
+r.copycheck();
+//r.staff();
+college t1=new college();
+t1.cctv();
+t1.lab();
+t1.copycheck();
+t1.staff();
 }
 }

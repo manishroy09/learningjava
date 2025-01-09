@@ -1,4 +1,4 @@
-//taking somthing and returning nothing 
+//taking somthing and returning somthing 
 
 import java.util.Scanner;
 class F6{

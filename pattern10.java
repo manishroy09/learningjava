@@ -8,7 +8,7 @@ class pattern10{
      for(r=1;r<=5;r++){
            for(c=1;c<=r;c++){
 
-                   System.out.print((char)(64+r));
+                   System.out.print((char)(64+r));// called type casting
                 }
            System.out.println(" ");
          }

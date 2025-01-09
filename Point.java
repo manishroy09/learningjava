@@ -11,7 +11,7 @@ class Point{
  System.out.println("Default Constructor is called ");
 }
 
-public Point(int a, int b){
+public Point(int a, int b){// perametrized constructor
   x=a;
   y=b;
  System.out.println("Perametrized  Constructor is called ");

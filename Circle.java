@@ -18,7 +18,8 @@ class Circle{
 
 void getArea(){
             
-     System.out.println(" Area is :" +(3.14*r*r)); 
+     System.out.println(" Area is :" +Math.PI*Math.pow(r,2));
+  //java.lang come from
     
     
     }

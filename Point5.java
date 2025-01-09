@@ -1,3 +1,5 @@
+// use of super and call from child class 
+
 class Point5{
 public int x;
 public int y;//instance variable

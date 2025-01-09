@@ -12,4 +12,8 @@ class A10{
       System.out.println(" Smallest Element : " +min);
      }
  }
+
+
+
+
  

@@ -11,4 +11,5 @@ public class l7{
       }
 
      }
-}// no. of iteration is 6  , that mean loop will exicute 11 times.
+}// no. of iteration is 6  , that mean loop will exicute 6 times.
+ // due i=i+2;

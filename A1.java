@@ -1,4 +1,5 @@
 // array 
+// How to prit value of array 
 class A1{
    public static void main( String args []){
     int rollno[]=new int[5];
