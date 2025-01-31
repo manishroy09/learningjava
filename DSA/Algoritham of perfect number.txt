@@ -1,0 +1,14 @@
+Step1: start 
+
+Step2: input a number
+
+Step3: initialize the factorialSum=0
+
+Step4: apply loop from 1 to <=n/2
+    if i is divisor or (n%i ==0) then add i to sum 
+
+Step5: check if factorialSum is equal to original number(n) 
+    if n=factorialSum then print it is perfect number, 
+    Else , print this is not a perfect number
+Step6: end
+   
