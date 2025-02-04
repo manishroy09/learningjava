@@ -1,0 +1,37 @@
+// jdbc task 
+
+create table emp(
+empno int primary key,
+ename varchar(45),
+job varchar(45),
+mgr int,
+hiredate date,
+sal float,
+comm float,
+deptno int
+);
+
+insert into emp values(800,null,null,null,NULL,NULL,NULL,NULL);
+insert into emp values(7369,"SMITH","CLERK",7902,'1980-08-02',NULL,800,20);
+insert into emp values(7499,"ALLEN","SALESMAN",7698,'1981-02-20',21500,150,30);
+insert into emp values(7521,"WARD","SALESMAN",7698,'1981-02-22',10000,500,30);
+insert into emp values(7566,"JONES","MANAGER",7839,'1981-04-02',11512,NUL,20);
+insert into emp values(7654,"MARTIN","SALESMAN",7698,'1981-09-28',12789,1400,30);
+insert into emp values(7698,"BLACK","MANAGER",7839,'1982-05-01',21563,NULL,30);
+insert into emp values(7782,"CLARK","MANAGER",7839,'1981-06-09',10365,NULL,10);
+insert into emp values(7788,"SCOTT","ANALYST",7566,'1982-12-09',17845,NULL,20);
+insert into emp values(7839,"KING","PRESIDENT",NULL,'1981-11-17',10234,NULL,10);
+insert into emp values(7844,"TURNER","SALESMAN",7698,'1981-09-08',11542,0,30);
+insert into emp values(7876,"ADAMS","CLERK",7788,'1983-01-12',15692,NULL,20);
+insert into emp values(7900,"JAMES","CLERK",7698,'1981-12-03',21212,NULL,30);
+insert into emp values(7902,"FORD","ANALYST",7566,'1981-12-03',13652,NULL,20);
+insert into emp values(7934,"MILLER","CLERK",7782,'1982-01-23',14892,NULL,10);
+
+create table users(
+uid int primary key,
+name varchar(45),
+username varchar(45),
+password varchar(45),
+email varchar(45),
+mobile varchar(45)
+);
